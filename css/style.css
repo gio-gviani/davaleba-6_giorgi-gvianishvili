@@ -1,0 +1,94 @@
+body {
+  background: #f1f1f1;
+}
+.container-1 {
+  margin-left: 137px;
+}
+.nav_li {
+  display: inline-block;
+  margin-right: 35px;
+  margin-top: 12px;
+}
+
+.nav_links {
+  color: #000;
+
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.Ellipse_img {
+  margin-top: 11px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.s-1 {
+  margin-top: 42px;
+}
+.treding_title {
+  margin-top: 42px;
+  margin-bottom: 27px;
+
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card {
+  position: relative;
+  height: 357px;
+  width: 362px;
+  border-radius: 5px;
+  background: #fff;
+  display: inline-block;
+  margin-right: 40px;
+}
+.title_in_img {
+  position: absolute;
+  top: 32px;
+  left: 41px;
+
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card_info {
+  padding: 68px 87px 40px 37px;
+}
+.card_text {
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.time_icon {
+  margin-top: 11px;
+  margin-right: 11px;
+  margin-left: 3px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.time {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 14px;
+
+  color: #8a8787;
+  font-family: "Roboto", serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
