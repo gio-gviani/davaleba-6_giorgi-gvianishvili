@@ -3,6 +3,14 @@ body {
 }
 .container-1 {
   margin-left: 137px;
+  width: 1175px;
+}
+header {
+  position: fixed;
+  background: #f1f1f1;
+  top: 0;
+  height: 54px;
+  z-index: 5;
 }
 .nav_li {
   display: inline-block;
@@ -27,11 +35,12 @@ nav {
   display: inline-block;
   vertical-align: middle;
 }
+
 .s-1 {
   margin-top: 42px;
 }
 .treding_title {
-  margin-top: 42px;
+  margin-top: 85px;
   margin-bottom: 27px;
 
   color: #000;
@@ -49,6 +58,9 @@ nav {
   background: #fff;
   display: inline-block;
   margin-right: 40px;
+}
+.last_card {
+  margin-right: 0px;
 }
 .title_in_img {
   position: absolute;
@@ -91,4 +103,92 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.HAPPENING_NOW {
+  color: #000;
+  font-family: "Roboto", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 57px;
+  padding-left: 2px;
+  padding-bottom: 3 0px;
+}
+.HN_pic_with_title {
+  position: relative;
+  display: block;
+  margin-bottom: 42px;
+  z-index: 1;
+}
+.happ_now_title {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.big_pictures {
+  display: inline-block;
+  margin-right: 45px;
+}
+.small_pictures {
+  display: inline-block;
+  vertical-align: top;
+}
+.small_picture {
+  display: block;
+  margin-bottom: 98px;
+  border-radius: 5px;
+}
+.big_picture {
+  border-radius: 5px;
+}
+/* footerrrrrr */
+footer {
+  background: #243043;
+  height: 201px;
+}
+
+.footer_links_squad {
+  display: inline-block;
+  margin-top: 59px;
+  margin-right: 92px;
+}
+
+.footer_link {
+  color: #818687;
+  font-family: "Roboto", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.thanks {
+  margin-top: 59px;
+
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.geolab_logo {
+  display: inline-block;
+  margin-top: 59px;
+  vertical-align: top;
+
+  margin-left: 416px;
 }
